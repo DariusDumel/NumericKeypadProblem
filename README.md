@@ -10,21 +10,4 @@ do a Depth first search, adding a new string everytime the bottome of the graph 
 
 this would be the graph of the string "23"
 
-```puml {align="center"}
-@startdot
-digraph G {
-  "" -> a
-  "" -> b
-  "" -> c
-  a -> ae
-  a -> af
-  a -> ag
-  b -> be
-  b -> bf
-  b -> bg
-  c -> ce
-  c -> cf
-  c -> cg
-}
-@enddot
-```
+![23graph](23examplegraph.png)
