@@ -27,12 +27,6 @@ public class NumericKeypad
       ArrayList<String> results = new ArrayList<String>();
       String[] rslts;
 
-      if (inputDigits == null)
-      {
-         rslts = new String[results.size()];
-         return results.toArray(rslts);
-      }
-
       possibleCombinationsHelper(results, new StringBuilder(), inputDigits, 0);
 
       rslts = new String[results.size()];
